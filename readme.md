@@ -25,4 +25,4 @@ python3 main.py jane-doe.per
 
 }
 ```
-### the config_tk and center_tk moduels are made for optimizing tkinter to look modern
+### the config_tk and center_tk moduels are made for optimizing tkinter to look modren
