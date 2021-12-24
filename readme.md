@@ -14,7 +14,7 @@ python3 main.py jane-doe.per
 	"Full-Name":"Jane Doe",
 	"DOB" : "2000/06/11",
 	"COB" : "London",
-	"Nationality" : "Algirean",
+	"Nationality" : "unknown",
 	"Sex" : "Female",
 	"City/Country" :"Gereva, Switzerland",
 	"Occupation":"Student at Pensilvina",
