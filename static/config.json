@@ -4,7 +4,7 @@
 		"bg":"#000",
 		"fg":"#fff",
 		"relief" :"flat",
-		"font" : ["Calibri" ,14 ,"italic" ],
+		"font" : ["Calibri" ,14 ],
 		"images" : [""]
 		}
 	],

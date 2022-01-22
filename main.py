@@ -13,7 +13,8 @@ def setup_info():
 	root.title(umeta['Full-Name'])
 	try:
 		img = Image.open(umeta['image-path'])
-		img.thumbnail((650,650))
+		uimage.update()
+		img.thumbnail((uimage.winfo_width()+50,uimage.winfo_height()))
 		image = ImageTk.PhotoImage(img)
 		uimage['image'] = image
 		uimage.image = image	
@@ -33,11 +34,11 @@ def setup_info():
 
 root = Tk()
 root['bg'] = root_bg
-# root.iconbitmap(icon)
+root.iconbitmap(icon)
 center_r = Center_root(master = root ,geometry = (750 , 480) ) 
 
-uimage = Label(relief = "solid")
-uimage.place(relx = 0.02 , rely = 0.05 , relwidth = 0.5 , relheight = 0.9)
+uimage = Label(relief = "solid",compound="center")
+uimage.place(relx = 0.05 , rely = 0.05 , relwidth = 0.42 , relheight = 0.9)
 uname = Label(font = ["Corbel" ,24 ] , fg = '#7BCEFF',bg = bg  )
 uname.place(relx = 0.53 , rely = 0.05 )
 udob = Label(text =  "Date of Birth: ", font = font,bg = bg , fg = fg )
