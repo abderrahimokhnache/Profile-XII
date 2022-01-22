@@ -21,10 +21,10 @@ python3 main.py jane-doe.per
 	"Address":"F1 G55 NAD67",
 	"Email" : "Jane_doe@gmail.com",
 	"Other-links" :"null",
-	"image-path" : "per-images/jane-doe.png"
+	"image-path" : "per-images/jane-doe.jpg"
 
 }
 ```
 ### the config_tk and center_tk moduels are made for optimizing tkinter to look modren
 
-<img src="https://github.com/astroxiii/Contact-System/blob/master/Screenshot from 2021-12-24 12-18-21.png" width="800"/>
+<img src="https://github.com/astroxiii/Contact-System/blob/master/showcase.png" width="800"/>
